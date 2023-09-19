@@ -63,7 +63,7 @@ const FeedBackCarousel: React.FC<CardCarouselProps> = ({ cards }) => {
                 defaultValue={5}
                 readOnly
                 sx={{ marginBottom: "20px" }}
-                className="feed-back-card-text"
+                className="feed-back-card-text stars"
               />
               <Typography
                 variant="body2"

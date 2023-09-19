@@ -1,11 +1,14 @@
 import "./page.css";
+import Link from "next/link";
 
 const Footer = () => {
   return (
     <div className="Footer-section-bg-container">
       <div className="Fooetr-section-deatils-container">
         <div className="logo-container">
-          <img src="/Images/logo.png" className="logo" />
+          <Link href="/">
+            <img src="/Images/logo.png" className="logo" />
+          </Link>
         </div>
         <div className="Footer-section-deatils-lists-bg-container">
           <div className="Footer-section-deatils-list-container">

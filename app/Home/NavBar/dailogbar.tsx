@@ -1,10 +1,16 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
+
+interface TabOption {
+  Option: string;
+  link: string;
+}
 
 interface Tab {
   title: string;
-  options: string[];
+  options: TabOption[];
 }
 
 interface DropdownProps {
@@ -48,7 +54,7 @@ const Dropdown: React.FC<DropdownProps> = ({ tabs }) => {
               <ul className="options">
                 {tab.options.map((option, optionIndex) => (
                   <li key={optionIndex} className="option navbar-selete-option">
-                    {option}
+                    <Link href={option.link}>{option.Option}</Link>
                   </li>
                 ))}
               </ul>

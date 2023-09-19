@@ -1,4 +1,5 @@
 import { Stack, Typography } from "@mui/material";
+import Link from "next/link";
 
 import "./page.css";
 
@@ -147,7 +148,9 @@ const Services = () => {
             favourite cricket team? Watch our latest #NiveshOnGameOn Anthem
             Video and prepare to invest like never before.
           </Typography>
-          <button className="button">Tread Now</button>
+          <Link href="/MutualFunds">
+            <button className="button">Trade Now</button>
+          </Link>
         </div>
       </div>
     </div>

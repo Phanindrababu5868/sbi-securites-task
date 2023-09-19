@@ -6,33 +6,44 @@ import Dropdown from "./dailogbar";
 import CloseIcon from "@mui/icons-material/Close";
 import "./page.css";
 import { Box } from "@mui/material";
+import Link from "next/link";
 
 const tabs = [
   {
     title: "Product",
-    options: ["Equity", "Drevetive", "Fixed income"],
+    options: [
+      { Option: "Equity", link: "/MutualFunds" },
+      { Option: "Drevetive", link: "/Derivatives" },
+      { Option: "Fixed income", link: "/MutualFunds" },
+    ],
   },
   {
     title: "Platforms",
-    options: ["Mobile", "Web Plaform"],
+    options: [
+      { Option: "Mobile", link: "/Home/TradingPlatforms" },
+      { Option: "Web Plaform", link: "/Home/TradingPlatforms" },
+    ],
   },
   {
     title: "Research",
     options: [
-      "Equity Research",
-      "Drevetive Research",
-      "Currency Research",
-      "MF Research",
+      { Option: "Equity Research", link: "/MutualFunds" },
+      { Option: "Derivative Research", link: "/Derivatives" },
+      { Option: "Currency Research", link: "/MutualFunds" },
+      { Option: "MF Research", link: "/MutualFunds" },
     ],
   },
 
   {
     title: "Knowledge Center",
-    options: ["FAQs"],
+    options: [{ Option: "FAQs", link: "/Home/FAQS" }],
   },
   {
     title: "Loan",
-    options: ["Car Loan", "Home Loan"],
+    options: [
+      { Option: "Car Loan", link: "/Home" },
+      { Option: " Home Loan", link: "/Home" },
+    ],
   },
 ];
 
@@ -43,11 +54,13 @@ const NavBar = () => {
     <>
       <div className="navbar-bg-container">
         <div className="nav-bar-container">
-          <img
-            src="/images/logo.png/"
-            alt="sbi securities"
-            className="navbar-logo"
-          />
+          <Link href="/">
+            <img
+              src="/images/logo.png/"
+              alt="sbi securities"
+              className="navbar-logo"
+            />
+          </Link>
           <div className="navbar-input-container">
             <input type="text" placeholder="How may i help you ?" />
             <div className="navbar-search-icon-container">
