@@ -1,0 +1,119 @@
+.TardingEductaion-section-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #220d4e;
+  width: 100%;
+}
+
+.TardingEductaion-section-heading {
+  font-size: 32px;
+  max-width: 80%;
+}
+
+.TardingEductaion-section-sub-heading {
+  font-size: 24px;
+}
+
+@media (max-width: 766px) {
+  .TardingEductaion-section-heading {
+    font-size: 24px;
+    max-width: 100%;
+  }
+  .TardingEductaion-section-sub-heading {
+    font-size: 16px;
+  }
+}
+
+.TardingEductaion-section-imgs-bg-container {
+  display: flex;
+  gap: 20px;
+  margin: 40px;
+}
+
+.TardingEductaion-section-img-container {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.TardingEductaion-section-img {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 340px) {
+  .TardingEductaion-section-img-container {
+    width: 30px;
+    height: 30px;
+  }
+
+  .TardingEductaion-section-img {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  .TardingEductaion-section-img-container {
+    width: 80px;
+    height: 80px;
+  }
+
+  .TardingEductaion-section-img {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .TardingEductaion-section-img-container {
+    width: 100px;
+    height: 100px;
+  }
+
+  .TardingEductaion-section-img {
+    width: 58px;
+    height: 58px;
+  }
+}
+
+.TardingEductaion-section-video-container {
+  height: 360px;
+  width: 70%;
+  background: url("/Images/Video.png"), lightgray 50% / cover no-repeat;
+
+  border-radius: 16px;
+  display: flex;
+  opacity: 0.9;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .TardingEductaion-section-video-container {
+    height: 180px;
+    width: 85%;
+  }
+}
+
+.TardingEductaion-section-video-paly-btn {
+  width: 50px;
+  height: 50px;
+}
+
+@media (min-width: 768px) {
+  .TardingEductaion-section-video-paly-btn {
+    width: 130px;
+    height: 130px;
+  }
+}

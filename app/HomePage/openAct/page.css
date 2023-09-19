@@ -1,0 +1,56 @@
+.open-act-section-bg-container {
+  width: 100%;
+  background: #220d4e;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.open-act-section-details-bg-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 720px) {
+  .open-act-section-details-bg-container {
+    flex-direction: column;
+  }
+}
+
+.boyandgirl-img {
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: -90%;
+  align-self: center;
+}
+
+@media (max-width: 980px) {
+  .boyandgirl-img {
+    display: none;
+  }
+}
+
+.open-act-section-text {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33px; /* 137.5% */
+}
+
+.open-act-section-text-span {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.home-page-boyandgirl-img-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

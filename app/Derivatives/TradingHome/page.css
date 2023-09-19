@@ -1,0 +1,130 @@
+.Trading-Home-bg-container {
+  width: 100%;
+  background: #220d4e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.Trading-Home-deatils-container {
+  display: flex;
+  flex-direction: column;
+  width: 53%;
+}
+
+@media (max-width: 980px) {
+  .Trading-Home-deatils-container {
+    width: 90%;
+    text-align: center;
+  }
+}
+
+.Trading-Home-deatils-container-sub-heading {
+  color: #07b2d9;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 41.6px;
+}
+
+@media (max-width: 768px) {
+  .Trading-Home-deatils-container-sub-heading {
+    font-size: 20px;
+  }
+}
+
+.Trading-Home-deatils-container-heading {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 43px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .Trading-Home-deatils-container-heading {
+    font-size: 26px;
+  }
+}
+
+.Trading-Home-deatils-container-span-heading {
+  background: linear-gradient(
+    89deg,
+    #d92365 0.66%,
+    #07b2d9 50.24%,
+    #d92365 72.84%,
+    #07b2d9 93.13%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 43px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .Trading-Home-deatils-container-span-heading {
+    font-size: 26px;
+  }
+}
+
+.Trading-Home-deatils-container-caption {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  text-transform: capitalize;
+  width: 55%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 980px) {
+  .Trading-Home-deatils-container-caption {
+    width: 90%;
+    font-size: 14px;
+  }
+}
+
+.Trading-experience-section-card-btn-container {
+  display: inline-flex;
+}
+
+@media (max-width: 980px) {
+  .Trading-experience-section-card-btn-container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+  }
+}
+
+.explore-btn {
+  color: #fff;
+}
+
+.Trading-Home-deatils-img-container {
+  display: none;
+  justify-content: flex-end;
+}
+
+@media (min-width: 980px) {
+  .Trading-Home-deatils-img-container {
+    display: flex;
+  }
+}
+
+.Trading-Home-img {
+  width: 390px;
+  height: 316.92px;
+  flex-shrink: 0;
+}

@@ -1,0 +1,73 @@
+.home-vidoe-img-container {
+  width: 90%;
+  max-width: 500px;
+  height: 100%;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  background-size: cover;
+}
+
+.home-playbtn-img {
+  width: 60px;
+  height: 60px;
+}
+
+.Home-page-video-bg-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 70%;
+  margin-top: 60px;
+}
+
+@media (max-width: 800px) {
+  .Home-page-video-bg-container {
+    flex-direction: column;
+  }
+}
+
+.home-page-video-heading {
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44.1px;
+  text-transform: capitalize;
+}
+
+@media (max-width: 1024px) {
+  .home-page-video-heading {
+    font-size: 24px;
+  }
+}
+
+.home-page-video-text {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31.1px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1024px) {
+  .home-page-video-text {
+    font-size: 12px;
+  }
+}
+
+.home-video-details-container {
+  padding: 20px;
+}
+
+@media (min-wdth: 800px) {
+  .hhome-video-details-container {
+    margin-left: 20px;
+  }
+}
