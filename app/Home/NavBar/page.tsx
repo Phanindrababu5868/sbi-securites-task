@@ -56,7 +56,7 @@ const NavBar = () => {
         <div className="nav-bar-container">
           <Link href="/">
             <img
-              src="/images/logo.png/"
+              src="/Images/logo.png/"
               alt="sbi securities"
               className="navbar-logo"
             />
