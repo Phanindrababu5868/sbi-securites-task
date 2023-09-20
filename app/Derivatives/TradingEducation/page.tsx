@@ -59,7 +59,7 @@ const TradingEducation = () => {
         </Stack>
         <Stack className="TardingEductaion-section-img-container">
           <img
-            src="/Images/LinkedIn.png"
+            src="/Images/linkedIn.png"
             alt="youtube"
             className="TardingEductaion-section-img"
           />
