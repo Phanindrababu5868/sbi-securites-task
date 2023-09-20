@@ -1,0 +1,144 @@
+.home_page_bg_container {
+  width: 100%;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mySwiper {
+  height: auto;
+  width: 100%;
+}
+
+@media screen and (min-width: 900px) {
+  .mySwiper {
+    height: 90vh;
+    width: 100%;
+  }
+}
+.home_page_details_container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.home_dwgfwgfwg {
+  width: 80%;
+}
+
+.home_page_sub_details_container {
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.home_container_capyion_details {
+  margin-bottom: 20px;
+}
+
+.nice_ten_P_A {
+  background: linear-gradient(90deg, #d92365 26.96%, #232073 82.35%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 44px;
+  text-transform: capitalize;
+}
+
+.copporated_FD {
+  background: linear-gradient(90deg, #232073 0%, #d92365 47.22%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 44px;
+  text-transform: capitalize;
+}
+
+.home_page_sub_details_container {
+  color: #232073;
+  font-family: Poppins;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 51px;
+  text-transform: uppercase;
+}
+
+.investment_name {
+  background: linear-gradient(90deg, #232073 52.7%, #d92365 85.57%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 51px;
+  text-transform: uppercase;
+}
+
+.home_container_capyion_details {
+  color: #220d4e;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 44px;
+  text-transform: capitalize;
+}
+
+.home_img_container {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .home_page_sub_details_container {
+    font-size: 35px;
+  }
+  .investment_name {
+    font-size: 35px;
+  }
+  .home_container_capyion_details {
+    font-size: 18px;
+  }
+  .nice_ten_P_A {
+    font-size: 18px;
+  }
+  .copporated_FD {
+    font-size: 18px;
+  }
+
+  .home_page_images_container_element {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .home_page_sub_details_container {
+    font-size: 28px;
+  }
+
+  .investment_name {
+    font-size: 28px;
+  }
+
+  .home_container_capyion_details {
+    font-size: 12px;
+  }
+
+  .nice_ten_P_A {
+    font-size: 12px;
+  }
+
+  .copporated_FD {
+    font-size: 12px;
+  }
+}

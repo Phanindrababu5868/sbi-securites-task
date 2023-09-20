@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, Dispatch, SetStateAction } from "react";
+
 import Link from "next/link";
 
 interface TabOption {
@@ -15,9 +16,10 @@ interface Tab {
 
 interface DropdownProps {
   tabs: Tab[];
+  closeHandler: Dispatch<SetStateAction<boolean>>;
 }
 
-const Dropdown: React.FC<DropdownProps> = ({ tabs }) => {
+const Dropdown: React.FC<DropdownProps> = ({ tabs, closeHandler }) => {
   const [activeTab, setActiveTab] = useState<number | null>(null);
 
   const handleMouseEnter = (index: number) => {
@@ -36,6 +38,7 @@ const Dropdown: React.FC<DropdownProps> = ({ tabs }) => {
             key={index}
             className="tab"
             onMouseEnter={() => handleMouseEnter(index)}
+            onClick={() => closeHandler(false)}
           >
             {tab.title} &nbsp;
             <svg

@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+.larger_cap {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media screen and (max-width: 768px) {
+  .larger_cap {
+    font-size: 14px;
+  }
+}
+
+.mutual_secound_container_box_container_1 {
+  width: 235px;
+  height: 245px;
+  flex-shrink: 0;
+  background: #fff;
+  box-shadow: -1px 4px 20px 0px rgba(0, 0, 0, 0.14);
+}
+
+.mnutual_text_and_images_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}

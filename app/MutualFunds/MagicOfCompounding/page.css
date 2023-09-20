@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+.mutual_five_page_container {
+  width: 100%;
+  height: 40%;
+  flex-shrink: 0;
+  background-color: #220d4e;
+}
+
+.mutual_five_page_container_textImages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+/* 
+.button_contaienr_elemnets{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} */
+
+@media screen and (max-width: 767px) {
+  .mutual_five_person {
+    display: none;
+  }
+}
+
+.heading_invest_early {
+  color: #f2f2f2;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 70%;
+}
+
+.number_and_title_containers {
+  display: flex;
+  padding-top: 20px;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.number_size_section {
+  color: #07b2d9;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55.9px;
+}
+
+@media screen and (max-width: 767px) {
+  .heading_invest_early {
+    font-size: 24px;
+  }
+
+  .number_size_section {
+    font-size: 16px;
+  }
+}
+
+.name_number_size_container {
+  color: #f2f2f2;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.all_number_text_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and(min-width: 1024px) {
+  .mutual_five_page_container_textImages {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.mutual_five_page_container_textImages {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px;
+}

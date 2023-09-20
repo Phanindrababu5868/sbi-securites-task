@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+.mutual_third_page_container {
+  width: 100%;
+  background: #f2f2f2;
+}
+
+.mutual_third_page_container_details {
+  width: 75%;
+  height: 590px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  background: #220d4e;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin: 30px;
+}
+
+@media screen and (min-width: 767px) {
+  .mutual_third_page_container_details {
+    height: 350px;
+    padding-bottom: 20px;
+  }
+}
+
+.mutual_thirs_pagebutton_container {
+  padding-top: 20px;
+}
+
+.Sip_claculator {
+  color: #fff;
+  text-align: center;
+  padding-top: 30px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.Inverstinon_section_money {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .Inverstinon_section_money {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+  }
+}
+.money_plane {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name_inverstment {
+  color: #f2f2f2;
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 23.4px;
+}
+
+select {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid var(--b2, #eef1ff);
+  background: var(--b1, #f5faff);
+  font-size: 24px;
+  margin: 10px;
+}
+
+option {
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid var(--b2, #eef1ff);
+  background: var(--b1, #f5faff);
+}
+
+.number {
+  color: var(--N2, #2c3655);
+  font-family: Jost;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.total_amount {
+  color: #f2f2f2;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.mutual_thirs_pagebutton_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mutual_third_page_container_inner_details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mutual_third_page_container_inner_det {
+  margin: 30px;
+}
+
+@media screen and (max-width: 375px) {
+  .total_amount {
+    font-size: 12px;
+  }
+  .button {
+    font-size: 16px;
+  }
+}
+
+.button_container_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.button {
+  color: #f2f2f2;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+  /* 183.333% */
+  text-transform: capitalize;
+  width: 235px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #d92365;
+}
+
+@media screen and (max-width: 425px) {
+  .button {
+    font-size: 12px;
+  }
+}

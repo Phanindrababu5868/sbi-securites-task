@@ -38,7 +38,7 @@ const questions = [
 ];
 
 const FAQS = () => {
-  const [expanded, setExpanded] = useState<string | false>(false);
+  const [expanded, setExpanded] = useState<string | false>(`question1`);
 
   const handleChange =
     (panel: string) => (event: React.SyntheticEvent, isExpanded: boolean) => {

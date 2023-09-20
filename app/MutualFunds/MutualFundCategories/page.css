@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+.mutual_secound_page_container {
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+
+.mutual_secound_page_details_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  padding-top: 50px;
+}
+
+.mutual_secound_heading {
+  color: #220d4e;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.mutual_secound_sub_heading {
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45px;
+  text-align: center;
+}
+
+.mutual_secound_container_box_container {
+  width: 235px;
+  height: 249px;
+  flex-shrink: 0;
+  background: #fff;
+  box-shadow: 0px 12px 4px 0px rgba(255, 255, 255, 0.25);
+}
+
+.mutual_secound_container_box_container:hover {
+  width: 235px;
+  height: 249px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  border: 1px solid #07b2d9;
+  background: #fff;
+  box-shadow: 0px 12px 4px 0px rgba(255, 255, 255, 0.25);
+}
+
+.mutual_all_box_container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.mutual_image_size {
+  width: 105px;
+  height: 105px;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+
+.mutual_image_size:hover {
+  background-color: rgba(7, 178, 217, 1);
+  width: 105px;
+  height: 105px;
+  flex-shrink: 0;
+}
+.mnutual_text_and_images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding-top: 30px;
+}
+
+.larger_cap_funds {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

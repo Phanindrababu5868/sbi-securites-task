@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+.Mutual-Home-bg-container {
+  width: 100%;
+  height: 544px;
+  background: #220d4e;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .Mutual-Home-bg-container {
+    height: 544px;
+  }
+}
+
+.Mutual-Home-deatils-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+@media (max-width: 980px) {
+  .Mutual-Home-deatils-container {
+    width: 90%;
+  }
+}
+
+.Mutual-Home-deatils-container-sub-heading {
+  color: #07b2d9;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 41.6px;
+}
+
+@media (max-width: 768px) {
+  .Mutual-Home-deatils-container-sub-heading {
+    font-size: 20px;
+  }
+}
+
+.Mutual-Home-deatils-container-heading {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 43px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .Mutual-Home-deatils-container-heading {
+    font-size: 26px;
+  }
+}
+
+.Mutual-Home-deatils-container-span-heading {
+  background: linear-gradient(
+    89deg,
+    #d92365 0.66%,
+    #07b2d9 50.24%,
+    #d92365 72.84%,
+    #07b2d9 93.13%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 43px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .Mutual-Home-deatils-container-span-heading {
+    font-size: 26px;
+  }
+}
+
+.Mutual-Home-deatils-container-caption {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  text-transform: capitalize;
+  width: 55%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 980px) {
+  .Mutual-Home-deatils-container-caption {
+    width: 90%;
+    font-size: 14px;
+  }
+}
+
+.Mutual-experience-section-card-btn-container {
+  display: inline-flex;
+}
+
+@media (max-width: 980px) {
+  .Mutual-experience-section-card-btn-container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+  }
+}
+
+.Mutual-Home-deatils-img-container {
+  display: none;
+  justify-content: flex-end;
+}
+
+@media (min-width: 980px) {
+  .Mutual-Home-deatils-img-container {
+    display: flex;
+  }
+}
+
+.Mutual-first-page-person-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Mutual-Home-deatils-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Mutual-Home-deatils-img-container {
+  display: none;
+  justify-content: flex-end;
+}
+
+@media (min-width: 980px) {
+  .Mutual-Home-deatils-img-container {
+    display: flex;
+  }
+}
+
+.button {
+  width: 235px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #d92365;
+  color: #f2f2f2;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+  text-transform: capitalize;
+  border: none;
+}
+
+@media (min-width: 960px) and (max-width: 1220px) {
+  .mutual_first_page_creids {
+    width: 120px;
+  }
+  .mutual_first_page_web {
+    width: 90px;
+  }
+  .mutual_first_page_person {
+    width: 200px;
+  }
+  .mutual_first_page_traget {
+    width: 120px;
+  }
+  .Mutual-Home-deatils-container-heading {
+    font-size: 30px;
+  }
+  .Mutual-Home-deatils-container-span-heading {
+    font-size: 30px;
+  }
+
+  .Mutual-Home-deatils-container-sub-heading {
+    font-size: 16px;
+  }
+}

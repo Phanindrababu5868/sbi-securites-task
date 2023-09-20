@@ -136,7 +136,7 @@ const NavBar = () => {
         >
           <CloseIcon onClick={() => setShowPopUp(false)} />
         </Box>
-        <Dropdown tabs={tabs} />
+        <Dropdown tabs={tabs} closeHandler={setShowPopUp} />
       </div>
     </>
   );

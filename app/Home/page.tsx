@@ -1,6 +1,7 @@
-import CardCarousel from "./Testimonials/page";
+import Testimonials from "./Testimonials/page";
 
-import InvetmentCarousel from "./Articals/page";
+import Carousel from "./carousel/page";
+import Articals from "./Articals/page";
 import Awards from "./Awards/page";
 import Services from "./Services/page";
 import OpenAct from "./openAct/page";
@@ -37,15 +38,60 @@ const cards = [
   },
 ];
 
+const posts = [
+  {
+    postName: "Investment Tips for Short Term, Mid Term & Long Term Goals",
+    authorName: "Post By Hans Murazik",
+    postDetails:
+      "There are no shortcuts to financial success. One of the few straightforward rules for making.",
+    postDate: "05 Feb 2022",
+  },
+  {
+    postName: "Investment Tips for Short Term, Mid Term & Long Term Goals",
+    authorName: "Post By Hans Murazik",
+    postDetails:
+      "There are no shortcuts to financial success. One of the few straightforward rules for making.",
+    postDate: "05 Feb 2022",
+  },
+  {
+    postName: "Investment Tips for Short Term, Mid Term & Long Term Goals",
+    authorName: "Post By Hans Murazik",
+    postDetails:
+      "There are no shortcuts to financial success. One of the few straightforward rules for making.",
+    postDate: "05 Feb 2022",
+  },
+  {
+    postName: "Investment Tips for Short Term, Mid Term & Long Term Goals",
+    authorName: "Post By Hans Murazik",
+    postDetails:
+      "There are no shortcuts to financial success. One of the few straightforward rules for making.",
+    postDate: "05 Feb 2022",
+  },
+  {
+    postName: "Investment Tips for Short Term, Mid Term & Long Term Goals",
+    authorName: "Post By Hans Murazik",
+    postDetails:
+      "There are no shortcuts to financial success. One of the few straightforward rules for making.",
+    postDate: "05 Feb 2022",
+  },
+  {
+    postName: "Investment Tips for Short Term, Mid Term & Long Term Goals",
+    authorName: "Post By Hans Murazik",
+    postDetails:
+      "There are no shortcuts to financial success. One of the few straightforward rules for making.",
+    postDate: "05 Feb 2022",
+  },
+];
 const HomePage = () => {
   return (
     <>
       <Services />
+      <Carousel />
       <TradingPlatform />
-      <CardCarousel cards={cards} />
+      <Testimonials cards={cards} />
       <Awards />
       <OpenAct />
-      <InvetmentCarousel cards={cards} />
+      <Articals cards={posts} />
     </>
   );
 };

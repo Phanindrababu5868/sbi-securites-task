@@ -9,15 +9,17 @@ import { Grid, Typography, Stack, Button } from "@mui/material";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
 interface CardData {
-  feedback: string;
-  name: string;
+  postName: string;
+  authorName: string;
+  postDetails: string;
+  postDate: string;
 }
 
 interface CardCarouselProps {
   cards: CardData[];
 }
 
-const InvetmentCarousel: React.FC<CardCarouselProps> = ({ cards }) => {
+const Articals: React.FC<CardCarouselProps> = ({ cards }) => {
   const itemsPerPage = 3;
 
   const [currentPage, setCurrentPage] = React.useState(0);
@@ -34,7 +36,6 @@ const InvetmentCarousel: React.FC<CardCarouselProps> = ({ cards }) => {
   const renderCards = () => {
     const startIndex = currentPage * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
-    console.log(cards.slice(startIndex, endIndex));
 
     return (
       <div className="crad-container">
@@ -84,7 +85,7 @@ const InvetmentCarousel: React.FC<CardCarouselProps> = ({ cards }) => {
               }}
             >
               <Typography variant="h5" className="invetemnt-card-heading">
-                Investment Tips for Short Term, Mid Term & Long Term Goals
+                {card.postName}
               </Typography>
               <Stack
                 display={"flex"}
@@ -92,15 +93,14 @@ const InvetmentCarousel: React.FC<CardCarouselProps> = ({ cards }) => {
                 justifyContent={"space-between"}
               >
                 <Typography className="invetemnt-card-text">
-                  Post By Hans Murazik
+                  {card.authorName}
                 </Typography>
                 <Typography className="invetemnt-card-text">
-                  05 Feb 2022
+                  {card.postDate}
                 </Typography>
               </Stack>
               <Typography variant="body2" className="invetemnt-card-text">
-                There are no shortcuts to financial success. One of the few
-                straightforward rules for making.
+                {card.postDetails}
               </Typography>
               <Button
                 variant="text"
@@ -201,4 +201,4 @@ const InvetmentCarousel: React.FC<CardCarouselProps> = ({ cards }) => {
   );
 };
 
-export default InvetmentCarousel;
+export default Articals;

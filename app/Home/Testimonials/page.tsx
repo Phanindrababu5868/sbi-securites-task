@@ -5,7 +5,6 @@ import "./page.css";
 import React from "react";
 
 import {
-  Button,
   Card,
   CardContent,
   Container,
@@ -25,7 +24,7 @@ interface CardCarouselProps {
   cards: CardData[];
 }
 
-const FeedBackCarousel: React.FC<CardCarouselProps> = ({ cards }) => {
+const Testimonials: React.FC<CardCarouselProps> = ({ cards }) => {
   const itemsPerPage = 3;
 
   const [currentPage, setCurrentPage] = React.useState(0);
@@ -42,7 +41,6 @@ const FeedBackCarousel: React.FC<CardCarouselProps> = ({ cards }) => {
   const renderCards = () => {
     const startIndex = currentPage * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
-    console.log(cards.slice(startIndex, endIndex));
 
     return (
       <div className="crad-container">
@@ -192,4 +190,4 @@ const FeedBackCarousel: React.FC<CardCarouselProps> = ({ cards }) => {
   );
 };
 
-export default FeedBackCarousel;
+export default Testimonials;
