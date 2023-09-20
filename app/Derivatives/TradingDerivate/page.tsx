@@ -1,6 +1,7 @@
 import { Button } from "@mui/material";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import "./page.css";
+import Image from "next/image";
 
 const TradingDerivate = () => {
   return (
@@ -26,10 +27,10 @@ const TradingDerivate = () => {
           </Button>
         </div>
 
-        <img src="/Images/handShake.png" alt="stastics" />
+        <Image src="/Images/handShake.png" alt="stastics" />
       </div>
       <div className="TradingDerivate-section-Derivate-bg-container">
-        <img src="/Images/Trading.png" alt="stastics" />
+        <Image src="/Images/Trading.png" alt="stastics" />
         <div>
           <h6>Types Of Derivatives</h6>
           <h4>Options Contracts OF Stocks</h4>

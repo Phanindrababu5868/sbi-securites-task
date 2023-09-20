@@ -1,5 +1,6 @@
 import { Stack, Typography } from "@mui/material";
 import "./page.css";
+import Image from "next/image";
 
 const OpenAct = () => {
   return (
@@ -16,7 +17,7 @@ const OpenAct = () => {
           </Typography>
         </Typography>
         <div className="home-page-boyandgirl-img-container">
-          <img
+          <Image
             src="/Images/boyandgirl.png"
             alt="boy and girl"
             className="boyandgirl-img"

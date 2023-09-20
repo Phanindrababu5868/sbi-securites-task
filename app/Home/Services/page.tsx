@@ -1,6 +1,6 @@
 import { Stack, Typography } from "@mui/material";
 import Link from "next/link";
-
+import Image from "next/image";
 import "./page.css";
 
 const ServicesData = [
@@ -84,7 +84,7 @@ const Services = () => {
       <div className="Awrad-section-medals-bg-container">
         {ServicesData.map((eachService) => (
           <div className="Awrad-section-medals-container">
-            <img
+            <Image
               src={eachService.imageUrl}
               alt="service"
               className="medal-img"
@@ -117,7 +117,7 @@ const Services = () => {
             height: "300px",
           }}
         >
-          <img
+          <Image
             src="/Images/PlayButtonCircled.png"
             alt="Play"
             className="home-playbtn-img"

@@ -1,5 +1,6 @@
 import "./page.css";
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
       <div className="Fooetr-section-deatils-container">
         <div className="logo-container">
           <Link href="/">
-            <img src="/Images/logo.png" className="logo" />
+            <Image src="/Images/logo.png" className="logo" alt="logo" />
           </Link>
         </div>
         <div className="Footer-section-deatils-lists-bg-container">
@@ -28,37 +29,43 @@ const Footer = () => {
           <div className="Footer-section-deatils-list-container">
             <span className="Footer-section-deatils-list-heading">Contact</span>
             <span className="Footer-section-contact-details-container">
-              <img
+              <Image
                 src="/Images/phone.png"
                 className="Footer-section-contact-img"
+                alt="phone"
               />
               <span className="Footer-section-deatils-list-text Footer-section-contact-details-container-span">
                 223 7283 2381
               </span>
             </span>
             <span className="Footer-section-contact-details-container Footer-section-deatils-list-text">
-              <img
+              <Image
                 src="/Images/envelope.png"
                 className="Footer-section-contact-img"
+                alt="email"
               />
               Helpdesk@sbi.com
             </span>
             <span className="Footer-section-contact-details-container">
-              <img
+              <Image
                 src="/Images/facebook.png"
                 className="Footer-section-social-media-img"
+                alt="facebook"
               />
-              <img
+              <Image
                 src="/Images/twitter.png"
                 className="Footer-section-social-media-img"
+                alt="twitter"
               />
-              <img
+              <Image
                 src="/Images/linkedin.png"
                 className="Footer-section-social-media-img"
+                alt="linkedin"
               />
-              <img
+              <Image
                 src="/Images/instagram.png"
                 className="Footer-section-social-media-img"
+                alt="instagram"
               />
             </span>
           </div>
@@ -69,13 +76,15 @@ const Footer = () => {
           Our Apps
         </p>
         <div className="Trading-experience-section-imgs-container">
-          <img
+          <Image
             src="/Images/apple.png"
             className="Trading-experience-section-img"
+            alt="apple"
           />
-          <img
+          <Image
             src="/Images/GooglePlay.png"
             className="Trading-experience-section-img"
+            alt="googlePlay"
           />
         </div>
       </div>

@@ -1,4 +1,5 @@
 import "./page.css";
+import Image from "next/image";
 
 const TradingHome = () => {
   return (
@@ -27,7 +28,11 @@ const TradingHome = () => {
         </div>
       </div>
       <div className="Trading-Home-deatils-img-container">
-        <img src="/Images/computerAnalytics.png" className="Trading-Home-img" />
+        <Image
+          src="/Images/computerAnalytics.png"
+          className="Trading-Home-img"
+          alt="computer"
+        />
       </div>
     </div>
   );

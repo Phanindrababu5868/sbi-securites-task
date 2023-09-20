@@ -7,6 +7,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import "./page.css";
 import { Box } from "@mui/material";
 import Link from "next/link";
+import Image from "next/image";
 
 const tabs = [
   {
@@ -55,7 +56,7 @@ const NavBar = () => {
       <div className="navbar-bg-container">
         <div className="nav-bar-container">
           <Link href="/">
-            <img
+            <Image
               src="/Images/logo.png/"
               alt="sbi securities"
               className="navbar-logo"

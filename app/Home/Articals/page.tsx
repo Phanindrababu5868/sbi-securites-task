@@ -4,6 +4,7 @@ import "./page.css";
 
 import React from "react";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
+import Image from "next/image";
 
 import { Grid, Typography, Stack, Button } from "@mui/material";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
@@ -54,7 +55,7 @@ const Articals: React.FC<CardCarouselProps> = ({ cards }) => {
                 width: "100%",
               }}
             >
-              <img
+              <Image
                 src="/Images/Investment.png"
                 alt="Invest"
                 className="invetemnt-card-image"

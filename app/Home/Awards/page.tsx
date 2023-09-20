@@ -1,4 +1,5 @@
 import { Stack, Typography } from "@mui/material";
+import Image from "next/image";
 
 import "./page.css";
 
@@ -66,7 +67,7 @@ const Awards = () => {
       <div className="Awrad-section-medals-bg-container">
         {awardsData.map((eachAward) => (
           <div className="Awrad-section-medals-container">
-            <img src="/Images/Medal.png" alt="Medal" className="medal-img" />
+            <Image src="/Images/Medal.png" alt="Medal" className="medal-img" />
             <Typography
               sx={{
                 color: "#0A1023",

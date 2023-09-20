@@ -1,4 +1,5 @@
 import { Typography } from "@mui/material";
+import Image from "next/image";
 
 import "./page.css";
 
@@ -63,7 +64,7 @@ const TradingPlatform = () => {
               gap: "20px",
             }}
           >
-            <img
+            <Image
               src="/Images/Desktop.png"
               alt="Desktop"
               style={{ width: "60px", height: "30px" }}
@@ -110,7 +111,7 @@ const TradingPlatform = () => {
               gap: "20px",
             }}
           >
-            <img
+            <Image
               src="/Images/Mobile.png"
               alt="Mobile"
               style={{
@@ -153,7 +154,7 @@ const TradingPlatform = () => {
             </div>
           </div>
         </div>
-        <img
+        <Image
           src="/Images/mobileTrading.png"
           alt="Trading"
           className="TradingPlatform-trading-img"

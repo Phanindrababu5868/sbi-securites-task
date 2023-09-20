@@ -1,4 +1,5 @@
 import { Stack, Typography } from "@mui/material";
+import Image from "next/image";
 
 import "./page.css";
 
@@ -51,28 +52,28 @@ const TradingEducation = () => {
       </Stack>
       <div className="TardingEductaion-section-imgs-bg-container">
         <Stack className="TardingEductaion-section-img-container">
-          <img
+          <Image
             src="/Images/YouTube.png"
             alt="youtube"
             className="TardingEductaion-section-img"
           />
         </Stack>
         <Stack className="TardingEductaion-section-img-container">
-          <img
-            src="/Images/linkedIn.png"
+          <Image
+            src="/Images/linkedin.png"
             alt="youtube"
             className="TardingEductaion-section-img"
           />
         </Stack>
         <Stack className="TardingEductaion-section-img-container">
-          <img
+          <Image
             src="/Images/Quora.png"
             alt="youtube"
             className="TardingEductaion-section-img"
           />
         </Stack>
         <Stack className="TardingEductaion-section-img-container">
-          <img
+          <Image
             src="/Images/PDF.png"
             alt="youtube"
             className="TardingEductaion-section-img"
@@ -80,9 +81,10 @@ const TradingEducation = () => {
         </Stack>
       </div>
       <div className="TardingEductaion-section-video-container">
-        <img
+        <Image
           src="/Images/PlayButton.png"
           className="TardingEductaion-section-video-paly-btn"
+          alt="paly"
         />
       </div>
     </Stack>
